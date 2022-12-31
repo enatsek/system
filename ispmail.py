@@ -7,7 +7,6 @@ import configparser
 import random
 import string
 import getpass
-import lsb_release
  
 """
 ISPMailInstall Utility
