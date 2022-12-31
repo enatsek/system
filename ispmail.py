@@ -772,7 +772,7 @@ def prepare_autoconfig_files():
 #   and Debian 11. So we should know if the distro is Ubuntu20, Ubuntu22, Debian11, 
 #   or Debian10). 
 
-supported_releases = ["Ubuntu20.04", "Ubuntu22.04", "Debian GNU10", "Debian11"]
+supported_releases = ["Ubuntu20.04", "Ubuntu22.04", "Debian GNU/Linux10", "DebianGNU/Linux11"]
 
 
 # Clear all parameters
