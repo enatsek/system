@@ -857,7 +857,7 @@ http_conf2_file = "/etc/apache2/sites-available/" + hostname + "-http.conf"
 # In Debian 10 and Ubuntu 20.04, roundcube runtime resides in /var/lib/roundcube
 # In Debian 11 and Ubuntu 22.04, roundcube runtime resides in /var/lib/roundcube/public_html
 roundcube_directory = "/var/lib/roundcube"
-if (distro_release in ["Ubuntu22.04", "Debian11"]):
+if (distro_release in ["Ubuntu22.04", "Debian GNU/Linux11"]):
    roundcube_directory = "/var/lib/roundcube/public_html"
 https_conf ="""
 <VirtualHost *:443>
